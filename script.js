@@ -17,7 +17,8 @@ describe('Customizable Font', () => {
     cy.reload();
     
     // Check if the CSS has been applied correctly
-    cy.get('body').should('have.css', 'font-size', '18px');
-    cy.get('body').should('have.css', 'color', 'rgb(255, 0, 0)');
-  });
+    cy.get('body').should(($body) => {
+  expect($body).to.have.css('font-size', '18px');
+  expect($body).to.have.css('color', 'rgb(255, 0, 0)');
+
 });
