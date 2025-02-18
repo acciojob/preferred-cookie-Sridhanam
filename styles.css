@@ -7,3 +7,28 @@ body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
 }
+   :root {
+            --fontsize: 16px;
+            --fontcolor: #000000;
+        }
+
+        body {
+            font-size: var(--fontsize);
+            color: var(--fontcolor);
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            margin-top: 5px;
+            padding: 5px;
