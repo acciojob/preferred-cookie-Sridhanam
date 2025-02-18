@@ -7,16 +7,7 @@ body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
 }
-   :root {
-            --fontsize: 16px;
-            --fontcolor: #000000;
-        }
-
-        body {
-            font-size: var(--fontsize);
-            color: var(--fontcolor);
-        }
-
+  
         .container {
             max-width: 400px;
             margin: 50px auto;
